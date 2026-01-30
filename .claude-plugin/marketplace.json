@@ -53,7 +53,9 @@
         "./skills/minerU",
         "./skills/pptx-to-pdf",
         "./skills/jindi_investment_build_site",
-        "./skills/real-estate-ppt-generator"
+        "./skills/real-estate-ppt-generator",
+        "./skills/Jindi_investment_ppt_to_web",
+        "./skills/procurement-pptx-generator"
       ]
     }
   ]

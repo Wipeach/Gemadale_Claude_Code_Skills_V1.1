@@ -1,0 +1,38 @@
+{
+  "name": "procurement-pptx-generator",
+  "version": "1.0.0",
+  "description": "金地上海采购部：基于PPTX模板 + 提示词文件，自动生成高质感、多版式、含联网证据与图片校验的PPTX。",
+  "entry": "skill.md",
+  "capabilities": {
+    "inputs": [
+      {
+        "name": "ppt_template",
+        "type": "pptx",
+        "required": false,
+        "desc": "可选：PPT主题模板（pptx）"
+      },
+      {
+        "name": "prompt_file",
+        "type": "text",
+        "required": true,
+        "desc": "必选：提示词文件（txt/md）"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "output_pptx",
+        "type": "pptx",
+        "desc": "生成的PPTX文件"
+      }
+    ],
+    "mcp_tools": [
+      "web-search-prime",
+      "web-reader",
+      "zai-mcp-server"
+    ]
+  },
+  "assets": {
+    "default_template": "templates/default_template.pptx",
+    "styleguide": "templates/gemdale_procurement_styleguide.md"
+  }
+}

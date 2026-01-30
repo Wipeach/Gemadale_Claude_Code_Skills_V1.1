@@ -30,7 +30,14 @@
       "Bash(done)",
       "Bash(do echo \"=== $dir ===\" find \"$dir\" -iname \"nul\" -o -iname \"con\" -o -iname \"prn\" -o -iname \"aux\" -o -iname \"com*\" -o -iname \"lpt*\")",
       "Bash(wc:*)",
-      "Bash(tree:*)"
+      "Bash(tree:*)",
+      "Bash(node:*)",
+      "Bash(npm install:*)",
+      "Bash(npx playwright install:*)",
+      "Bash(copy:*)",
+      "mcp__web-search-prime__webSearchPrime",
+      "mcp__web-reader__webReader",
+      "mcp__zai-mcp-server__analyze_image"
     ]
   },
   "enabledPlugins": {
