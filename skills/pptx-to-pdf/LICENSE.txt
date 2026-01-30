@@ -1,0 +1,9 @@
+Copyright (c) 2025
+
+Proprietary License - All rights reserved.
+
+This skill and its associated documentation are proprietary software.
+You may not use, copy, modify, or distribute this skill without express
+written permission.
+
+For licensing inquiries, contact the copyright holder.

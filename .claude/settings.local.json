@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(pptx-to-pdf)",
+      "Bash(python:*)",
+      "Skill(minerU)",
+      "Bash(dir:*)",
+      "Bash(pip install:*)",
+      "Bash(echo:*)",
+      "Bash(ls:*)",
+      "Bash(where:*)",
+      "Bash(curl:*)",
+      "Bash(cat:*)",
+      "WebSearch",
+      "Bash(mkdir:*)",
+      "Skill(document-skills:frontend-design)",
+      "Bash(xcopy:*)",
+      "Bash(robocopy:*)",
+      "Bash(file:*)",
+      "Skill(document-skills:minerU)",
+      "Skill(gemdale-sh-skills:minerU)",
+      "Bash(powershell -Command:*)",
+      "Skill(jindi_investment_build_site)",
+      "Skill(pdf)",
+      "Bash(chcp:*)",
+      "Bash(for:*)",
+      "Bash(do if python -c \"import sys; sys.stdout.buffer.write\\(open\\(''$file'', ''rb''\\).read\\(200\\)\\)\")",
+      "Bash(then)",
+      "Bash(fi:*)",
+      "Bash(done)",
+      "Bash(do echo \"=== $dir ===\" find \"$dir\" -iname \"nul\" -o -iname \"con\" -o -iname \"prn\" -o -iname \"aux\" -o -iname \"com*\" -o -iname \"lpt*\")",
+      "Bash(wc:*)",
+      "Bash(tree:*)"
+    ]
+  },
+  "enabledPlugins": {
+    "gemdale-sh-skills@anthropic-agent-skills": true
+  }
+}
