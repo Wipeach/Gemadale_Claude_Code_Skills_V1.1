@@ -37,7 +37,9 @@
       "Bash(copy:*)",
       "mcp__web-search-prime__webSearchPrime",
       "mcp__web-reader__webReader",
-      "mcp__zai-mcp-server__analyze_image"
+      "mcp__zai-mcp-server__analyze_image",
+      "Bash(findstr:*)",
+      "Bash(magic-pdf:*)"
     ]
   },
   "enabledPlugins": {
